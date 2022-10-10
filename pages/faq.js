@@ -1,34 +1,28 @@
-import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
-import PageBanner from '../components/Common/PageBanner';
-import FaqContent from '../components/Faq/FaqContent';
-import FaqForm from '../components/Faq/FaqForm';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from 'react'
+import NavbarTwo from '../components/Layouts/NavbarTwo'
+import PageBanner from '../components/Common/PageBanner'
+import FaqContent from '../components/Faq/FaqContent'
+import FaqForm from '../components/Faq/FaqForm'
+import CtaAreaTwo from '../components/Common/CtaAreaTwo'
 
 class Faq extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+  render() {
+    return (
+      <>
+        <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Frequently Asked Questions" 
-                    BGImage="bg-one"
-                />  
+        <PageBanner pageTitle='Frequently Asked Questions' BGImage='bg-one' />
 
-                <FaqContent />
+        <FaqContent />
 
-                <div className="pb-100">
-                    <FaqForm />
-                </div>
-                
-                <CtaAreaTwo />
-                
-                <Footer />
-            </>
-        );
-    }
+        <div className='pb-100'>
+          <FaqForm />
+        </div>
+
+        <CtaAreaTwo />
+      </>
+    )
+  }
 }
 
-export default Faq;
+export default Faq

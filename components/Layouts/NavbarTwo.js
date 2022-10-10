@@ -47,12 +47,12 @@ class NavbarTwo extends Component {
               <Link href='/'>
                 <a className='navbar-brand'>
                   <img
-                    src='/images/logo.png'
+                    src='/images/logo-ljt-150x150.png'
                     className='black-logo'
                     alt='logo'
                   />
                   <img
-                    src='/images/logo-white.png'
+                    src='/images/logo-ljt-150x150.png'
                     className='white-logo'
                     alt='logo'
                   />

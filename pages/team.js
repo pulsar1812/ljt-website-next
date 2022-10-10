@@ -1,31 +1,25 @@
-import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
-import PageBanner from '../components/Common/PageBanner';
-import TeamStyleThree from '../components/Team/TeamStyleThree';
-import TeamStyleTwo from '../components/Team/TeamStyleTwo';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from 'react'
+import NavbarTwo from '../components/Layouts/NavbarTwo'
+import PageBanner from '../components/Common/PageBanner'
+import TeamStyleThree from '../components/Team/TeamStyleThree'
+import TeamStyleTwo from '../components/Team/TeamStyleTwo'
+import CtaAreaTwo from '../components/Common/CtaAreaTwo'
 
 class Team extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+  render() {
+    return (
+      <>
+        <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Our Skilled Team" 
-                    BGImage="bg-one"
-                />  
-                <TeamStyleThree />
+        <PageBanner pageTitle='Our Skilled Team' BGImage='bg-one' />
+        <TeamStyleThree />
 
-                <TeamStyleTwo />
+        <TeamStyleTwo />
 
-                <CtaAreaTwo />
-                
-                <Footer />
-            </>
-        );
-    }
+        <CtaAreaTwo />
+      </>
+    )
+  }
 }
 
-export default Team;
+export default Team

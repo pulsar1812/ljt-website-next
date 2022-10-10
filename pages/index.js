@@ -10,7 +10,6 @@ import FunFacts from '../components/Common/FunFacts'
 import LatestNewsSlider from '../components/Common/LatestNewsSlider'
 import CtaArea from '../components/Common/CtaArea'
 import Partner from '../components/Common/Partner'
-import Footer from '../components/Layouts/Footer'
 import WorkProcess from '../components/HomePages/DefaultHomeTwo/WorkProcess'
 
 class DefaultHome2 extends Component {
@@ -27,9 +26,9 @@ class DefaultHome2 extends Component {
 
         <OurWorks />
 
-        {/* <WorkProcess /> */}
+        <WorkProcess />
 
-        <Feedback />
+        {/* <Feedback /> */}
 
         <Team />
 
@@ -40,8 +39,6 @@ class DefaultHome2 extends Component {
         <CtaArea />
 
         <Partner />
-
-        <Footer />
       </>
     )
   }
