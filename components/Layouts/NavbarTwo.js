@@ -90,40 +90,9 @@ class NavbarTwo extends Component {
                   </li>
 
                   <li className='nav-item'>
-                    <Link href='#'>
-                      <a
-                        className='nav-link'
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Portfolio <i className='icofont-thin-down'></i>
-                      </a>
+                    <Link href='/portfolio' activeClassName='active'>
+                      <a className='nav-link'>Portfolio</a>
                     </Link>
-
-                    <ul className='dropdown-menu'>
-                      <li className='nav-item'>
-                        <Link href='/portfolio' activeClassName='active'>
-                          <a className='nav-link'>Portfolio</a>
-                        </Link>
-                      </li>
-
-                      <li className='nav-item'>
-                        <Link
-                          href='/portfolio-details'
-                          activeClassName='active'
-                        >
-                          <a className='nav-link'>Portfolio Details</a>
-                        </Link>
-                      </li>
-
-                      <li className='nav-item'>
-                        <Link
-                          href='/portfolio-details-2'
-                          activeClassName='active'
-                        >
-                          <a className='nav-link'>Portfolio Details 2</a>
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li className='nav-item'>

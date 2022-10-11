@@ -27,13 +27,13 @@ class Footer extends Component {
 
                   <ul className='social-links'>
                     <li>
-                      <a href='https://www.facebook.com/' target='_blank'>
-                        <i className='icofont-facebook'></i>
+                      <a href='https://linkedin.com/' target='_blank'>
+                        <i className='icofont-linkedin'></i>
                       </a>
                     </li>
                     <li>
-                      <a href='https://linkedin.com/' target='_blank'>
-                        <i className='icofont-linkedin'></i>
+                      <a href='https://www.facebook.com/' target='_blank'>
+                        <i className='icofont-facebook'></i>
                       </a>
                     </li>
                     <li>
@@ -58,11 +58,6 @@ class Footer extends Component {
                     <li>
                       <Link href='/about'>
                         <a>About</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/services'>
-                        <a>Services</a>
                       </Link>
                     </li>
                     <li>
@@ -92,16 +87,6 @@ class Footer extends Component {
                     <li>
                       <Link href='/faq'>
                         <a>Faq</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/privacy-policy'>
-                        <a>Privacy Policy</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href='/terms-conditions'>
-                        <a>Terms & Conditions</a>
                       </Link>
                     </li>
                   </ul>

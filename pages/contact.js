@@ -17,9 +17,9 @@ class Contact extends Component {
 
         <ContactForm />
 
-        <div className='ptb-100'>
+        {/* <div className='ptb-100'>
           <Newsletter />
-        </div>
+        </div> */}
       </>
     )
   }
