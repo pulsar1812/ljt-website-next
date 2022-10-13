@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 class OurWorks extends Component {
   render() {
@@ -8,10 +9,10 @@ class OurWorks extends Component {
         <section className='case-studies-area ptb-100 bg-fcfbfb'>
           <div className='container'>
             <div className='section-title'>
-              <h2>Our Works</h2>
+              <h2>Featured Projects</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Take a look at some of our featured projects for various
+                technology stacks and client requirements
               </p>
             </div>
 
@@ -67,7 +68,7 @@ class OurWorks extends Component {
 
                   <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape2.png'
+                      src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
                   </div>
@@ -98,7 +99,7 @@ class OurWorks extends Component {
 
                   <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape3.png'
+                      src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
                   </div>
@@ -129,7 +130,7 @@ class OurWorks extends Component {
 
                   <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape4.png'
+                      src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
                   </div>
@@ -158,7 +159,7 @@ class OurWorks extends Component {
 
                   <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape5.png'
+                      src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
                   </div>
@@ -187,7 +188,7 @@ class OurWorks extends Component {
 
                   <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape6.png'
+                      src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
                   </div>
