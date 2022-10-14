@@ -72,6 +72,7 @@ body {
   }
   color: $paragraph-color;
 }
+
 h1,
 h2,
 h3,
@@ -82,16 +83,19 @@ h6 {
   color: $black-color;
   font-weight: bold;
 }
+
 h1,
 h2,
 h3 {
   font-weight: bold;
 }
+
 h4,
 h5,
 h6 {
   font-weight: 600;
 }
+
 p {
   line-height: 1.8;
   font-size: $font-size;
@@ -102,9 +106,11 @@ p {
     margin-bottom: 0;
   }
 }
+
 a {
   transition: $transition;
 }
+
 .d-table {
   width: 100%;
   height: 100%;
@@ -113,72 +119,91 @@ a {
     vertical-align: middle;
   }
 }
+
 img {
   max-width: 100%;
 }
+
 button {
   outline: 0 !important;
 }
+
 .border {
   border-color: #eee !important;
 }
+
 .radius-10 {
   border-radius: 10px;
 }
+
 .ptb-100 {
   padding: {
     top: 100px;
     bottom: 100px;
   }
 }
+
 .pt-100 {
   padding: {
     top: 100px;
   }
 }
+
 .pb-100 {
   padding: {
     bottom: 100px;
   }
 }
+
 .pb-70 {
   padding: {
     bottom: 70px;
   }
 }
+
 .pb-60 {
   padding: {
     bottom: 60px;
   }
 }
+
 .pl-0 {
   padding-left: 0 !important;
 }
+
 .bg-fixed {
   background-attachment: fixed;
 }
+
 .bg-fcfbfb {
   background-color: #f6f3f3;
 }
+
 .bg-f9f6f6 {
   background-color: #f9f6f6;
 }
+
 .bg-f9f9f9 {
   background-color: #f9f9f9;
 }
+
 .mb-30 {
   margin-bottom: 30px !important;
 }
+
 .mw-1920 {
   max-width: 1920px;
   margin: auto;
 }
+
 .pl-20 {
   padding-left: 20px;
 }
+
 .pr-20 {
   padding-right: 20px;
 }
+
 a {
   display: inline-block;
   transition: $transition;
@@ -192,6 +217,7 @@ a {
     text-decoration: none;
   }
 }
+
 .rounded-10 {
   border-radius: 10px;
 }
@@ -214,6 +240,7 @@ a {
     opacity: 1;
   }
 }
+
 .btn-primary {
   color: $white-color;
   background-color: $white-color;
@@ -259,6 +286,7 @@ a {
     }
   }
 }
+
 .btn-secondary {
   color: $main-color;
   background-color: transparent;
@@ -368,6 +396,7 @@ a {
 .form-group {
   margin-bottom: 25px;
 }
+
 label {
   color: $black-color;
   font: {
@@ -376,6 +405,7 @@ label {
   }
   margin-bottom: 10px;
 }
+
 .form-control {
   height: 55px;
   padding: 15px 20px;
@@ -419,9 +449,11 @@ label {
     animation: sk-rotateplane 1.2s infinite ease-in-out;
   }
 }
+
 .preloader-deactivate {
   display: none;
 }
+
 @keyframes sk-rotateplane {
   0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
@@ -5130,6 +5162,7 @@ Contact CSS
   padding: 30px 30px 30px 120px;
   margin-bottom: 30px;
   position: relative;
+  min-height: 180px;
 
   .icon {
     display: inline-block;
