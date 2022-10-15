@@ -37,12 +37,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
                       src='/images/case-studies/studie-shape1.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -66,12 +66,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape1.png'
+                      src='/images/case-studies/studie-shape2.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -97,12 +97,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape1.png'
+                      src='/images/case-studies/studie-shape3.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -128,12 +128,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape1.png'
+                      src='/images/case-studies/studie-shape4.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -157,12 +157,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape1.png'
+                      src='/images/case-studies/studie-shape5.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -186,12 +186,12 @@ class OurWorks extends Component {
                     <a className='btn btn-primary'>View Case Study</a>
                   </Link>
 
-                  <div className='shape'>
+                  {/* <div className='shape'>
                     <img
-                      src='/images/case-studies/studie-shape1.png'
+                      src='/images/case-studies/studie-shape6.png'
                       alt='logo'
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
