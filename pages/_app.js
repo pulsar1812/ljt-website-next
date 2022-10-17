@@ -12,10 +12,6 @@ import 'react-accessible-accordion/dist/fancy-example.css'
 import 'react-image-lightbox/style.css'
 import 'swiper/css'
 import 'swiper/css/bundle'
-// Software Startup Home Style
-import '../styles/software-home-page.css'
-// App Showcase Home Style
-import '../styles/app-home-page.css'
 // Global Style
 import '../styles/style.css'
 import '../styles/responsive.css'
