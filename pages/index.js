@@ -30,7 +30,7 @@ class DefaultHome2 extends Component {
 
         {/* <Feedback /> */}
 
-        <Team />
+        {/* <Team /> */}
 
         {/* <FunFacts /> */}
 

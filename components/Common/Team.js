@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from 'next/image'
 
 class Team extends Component {
   render() {
@@ -7,11 +8,7 @@ class Team extends Component {
         <div className='pt-100 pb-70'>
           <div className='container'>
             <div className='section-title'>
-              <h2>Skilled Team</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+              <h2>Team Members</h2>
             </div>
 
             <div className='row justify-content-center'>

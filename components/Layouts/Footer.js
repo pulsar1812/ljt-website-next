@@ -65,11 +65,6 @@ class Footer extends Component {
                         <a>Portfolio</a>
                       </Link>
                     </li>
-                    <li>
-                      <Link href='/team'>
-                        <a>Team</a>
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </div>
