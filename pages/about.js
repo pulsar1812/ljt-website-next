@@ -1,35 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
 import NavbarTwo from '../components/Layouts/NavbarTwo'
 import PageBanner from '../components/Common/PageBanner'
 import AboutContent from '../components/About/AboutContent'
 import FunFactsTwo from '../components/Common/FunFactsTwo'
 import Team from '../components/Common/Team'
-// import Feedback from '../components/Common/Feedback'
-// import Partner from '../components/Common/Partner'
 import CtaAreaTwo from '../components/Common/CtaAreaTwo'
 
-class About extends Component {
-  render() {
-    return (
-      <>
-        <NavbarTwo />
+export default function About() {
+  return (
+    <>
+      <NavbarTwo />
 
-        <PageBanner pageTitle='About Us' BGImage='bg-one' />
+      <PageBanner pageTitle='About Us' BGImage='bg-one' />
 
-        <AboutContent />
+      <AboutContent />
 
-        <FunFactsTwo />
+      <FunFactsTwo />
 
-        <Team />
+      <Team />
 
-        {/* <Feedback /> */}
-
-        {/* <Partner /> */}
-
-        <CtaAreaTwo />
-      </>
-    )
-  }
+      <CtaAreaTwo />
+    </>
+  )
 }
-
-export default About

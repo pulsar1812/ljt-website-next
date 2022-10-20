@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Navbar from '../components/Layouts/Navbar'
 import MainBanner from '../components/HomePages/DefaultHomeTwo/MainBanner'
 import Services from '../components/HomePages/DefaultHomeTwo/Services'
@@ -8,28 +8,24 @@ import CtaArea from '../components/Common/CtaArea'
 import Partner from '../components/Common/Partner'
 import WorkProcess from '../components/HomePages/DefaultHomeTwo/WorkProcess'
 
-class DefaultHome2 extends Component {
-  render() {
-    return (
-      <>
-        <Navbar />
+export default function DefaultHome2() {
+  return (
+    <>
+      <Navbar />
 
-        <MainBanner />
+      <MainBanner />
 
-        <Services />
+      <Services />
 
-        <About />
+      <About />
 
-        <OurWorks />
+      {/* <OurWorks /> */}
 
-        <WorkProcess />
+      <WorkProcess />
 
-        <CtaArea />
+      <Partner />
 
-        <Partner />
-      </>
-    )
-  }
+      <CtaArea />
+    </>
+  )
 }
-
-export default DefaultHome2

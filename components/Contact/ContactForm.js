@@ -25,7 +25,7 @@ const INITIAL_STATE = {
   text: '',
 }
 
-const ContactForm = () => {
+export default function ContactForm() {
   const [contact, setContact] = useState(INITIAL_STATE)
   const handleChange = (e) => {
     const { name, value } = e.target
@@ -140,5 +140,3 @@ const ContactForm = () => {
     </>
   )
 }
-
-export default ContactForm

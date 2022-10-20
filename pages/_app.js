@@ -20,7 +20,7 @@ import Head from 'next/head'
 import Footer from '../components/Layouts/Footer'
 import GoTop from '../components/Shared/GoTop'
 
-function MyApp({ Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init()
   }, [])
@@ -37,5 +37,3 @@ function MyApp({ Component, pageProps }) {
     </>
   )
 }
-
-export default MyApp
