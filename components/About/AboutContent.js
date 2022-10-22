@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
+import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const ModalVideo = dynamic(() => import('react-modal-video'), {
   ssr: false,
 })
+
+import aboutImg2 from '../../public/images/about-img2.jpg'
 
 export default function About() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,11 +21,19 @@ export default function About() {
           <div className='row align-items-center'>
             <div className='col-lg-5 col-md-12'>
               <div className='about-image'>
-                <img
-                  src='/images/about-img2.jpg'
+                <Image
+                  src={aboutImg2}
+                  layout='fill'
+                  objectFit='cover'
                   alt='image'
                   className='rounded-10'
                 />
+
+                {/* <img
+                  src='/images/about-img2.jpg'
+                  alt='image'
+                  className='rounded-10'
+                /> */}
 
                 <div className='video-box'>
                   <div

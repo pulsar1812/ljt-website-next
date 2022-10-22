@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Link from '../../utils/ActiveLink'
+import Image from 'next/image'
 
 export default function Navbar() {
   const [collapsed, setCollapsed] = useState(true)

@@ -27,11 +27,13 @@ const INITIAL_STATE = {
 
 export default function FaqForm() {
   const [contact, setContact] = useState(INITIAL_STATE)
+
   const handleChange = (e) => {
     const { name, value } = e.target
     setContact((prevState) => ({ ...prevState, [name]: value }))
     // console.log(contact)
   }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
     try {

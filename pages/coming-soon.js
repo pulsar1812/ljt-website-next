@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function ComingSoon() {
-  const [days, setDays] = React.useState('')
-  const [hours, setHours] = React.useState('')
-  const [minutes, setMinutes] = React.useState('')
-  const [seconds, setSeconds] = React.useState('')
+  const [days, setDays] = useState('')
+  const [hours, setHours] = useState('')
+  const [minutes, setMinutes] = useState('')
+  const [seconds, setSeconds] = useState('')
 
-  React.useEffect(() => {
+  useEffect(() => {
     const interval = setInterval(() => {
       commingSoonTime()
     }, 1000)

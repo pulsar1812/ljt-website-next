@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Image from 'next/image'
 import dynamic from 'next/dynamic'
 const ModalVideo = dynamic(() => import('react-modal-video'), {
   ssr: false,
