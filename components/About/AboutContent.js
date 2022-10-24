@@ -21,19 +21,19 @@ export default function About() {
           <div className='row align-items-center'>
             <div className='col-lg-5 col-md-12'>
               <div className='about-image'>
-                <Image
+                {/* <Image
                   src={aboutImg2}
                   layout='fill'
                   objectFit='cover'
                   alt='image'
                   className='rounded-10'
-                />
+                /> */}
 
-                {/* <img
+                <img
                   src='/images/about-img2.jpg'
                   alt='image'
                   className='rounded-10'
-                /> */}
+                />
 
                 <div className='video-box'>
                   <div
