@@ -27,13 +27,16 @@ const INITIAL_STATE = {
 
 export default function ContactForm() {
   const [contact, setContact] = useState(INITIAL_STATE)
+
   const handleChange = (e) => {
     const { name, value } = e.target
     setContact((prevState) => ({ ...prevState, [name]: value }))
     // console.log(contact)
   }
+
   const handleSubmit = async (e) => {
     e.preventDefault()
+
     try {
       const url = `${baseUrl}/api/contact`
       const { name, email, number, subject, text } = contact
@@ -53,8 +56,7 @@ export default function ContactForm() {
         <div className='contact-title'>
           <h2>Get In Touch</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Please leave us a message for any idea or question that you have
           </p>
         </div>
 
