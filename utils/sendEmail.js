@@ -1,12 +1,11 @@
 import nodemailer from 'nodemailer'
 
 export default async function sendEmail(options) {
-  // console.log(options)
   const transporter = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
     port: process.env.SMTP_PORT,
     auth: {
-      user: process.env.SMTP_EMAIL,
+      user: process.env.SMTP_USERNAME,
       pass: process.env.SMTP_PASSWORD,
     },
   })
@@ -14,9 +13,9 @@ export default async function sendEmail(options) {
   const { name, email, number, subject, text } = options
 
   const message = {
-    from: email,
-    to: 'info@ljt.app',
-    subject: 'Hi there',
+    from: `${name} <${email}>`,
+    to: process.env.TO_EMAIL,
+    subject: 'Contact email from company website',
     text: text,
     html: `
             <b>From:</b> ${name} <br />
@@ -25,13 +24,6 @@ export default async function sendEmail(options) {
             <b>Message:</b> ${text}
         `,
   }
-
-  // const message = {
-  //   from: `${process.env.FROM_NAME} <${process.env.FROM_EMAIL}>`,
-  //   to: options.email,
-  //   subject: options.subject,
-  //   text: options.text,
-  // }
 
   const info = await transporter.sendMail(message)
 
