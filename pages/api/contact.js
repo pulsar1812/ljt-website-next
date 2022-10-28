@@ -1,14 +1,14 @@
 import sendEmail from '../../utils/sendEmail'
 
 export default async (req, res) => {
-  console.log(req.body)
+  // console.log(req.body)
   const { name, email, number, subject, text } = req.body
 
   const data = { name, email, number, subject, text }
 
   try {
     const response = await sendEmail(data)
-    console.log(response)
+    // console.log(response)
     res.status(200).send('Email send successfully')
   } catch (error) {
     console.log(error)
