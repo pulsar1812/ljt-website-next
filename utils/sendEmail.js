@@ -12,14 +12,16 @@ export default async function sendEmail(options) {
   })
 
   const { name, email, number, subject, text } = options
+  console.log(email)
 
   const message = {
-    from: `${name} <${email}>`,
+    from: email,
     to: process.env.TO_EMAIL,
     subject: 'Contact email from company website',
     text: text,
     html: `
-            <b>From:</b> ${name} <br />
+            <b>Name:</b> ${name} <br />
+            <b>Email:</b> ${email} <br />
             <b>Phone Number:</b> ${number} <br />
             <b>Subject:</b> ${subject} <br />
             <b>Message:</b> ${text}
