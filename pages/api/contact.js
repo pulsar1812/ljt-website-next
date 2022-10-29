@@ -1,7 +1,6 @@
 import sendEmail from '../../utils/sendEmail'
 
 export default async (req, res) => {
-  // console.log(req.body)
   const { name, email, number, subject, text } = req.body
 
   const data = { name, email, number, subject, text }
