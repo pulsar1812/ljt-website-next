@@ -8,7 +8,7 @@ export default async (req, res) => {
 
   try {
     const response = await sendEmail(data)
-    // console.log(response)
+    console.log(response)
     res.status(200).send('Email send successfully')
   } catch (error) {
     console.log(error)
