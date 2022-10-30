@@ -17,7 +17,7 @@ export default function About() {
 
       <FunFactsTwo />
 
-      <Team />
+      {/* <Team /> */}
 
       <CtaAreaTwo />
     </>
