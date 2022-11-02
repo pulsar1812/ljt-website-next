@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import dynamic from 'next/dynamic'
-const ModalVideo = dynamic(() => import('react-modal-video'), {
-  ssr: false,
-})
+// import dynamic from 'next/dynamic'
+// const ModalVideo = dynamic(() => import('react-modal-video'), {
+//   ssr: false,
+// })
 
 export default function About() {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
 
-  const openModal = () => {
-    setIsOpen(true)
-  }
+  // const openModal = () => {
+  //   setIsOpen(true)
+  // }
 
   return (
     <>
@@ -25,7 +25,7 @@ export default function About() {
                   className='rounded-10'
                 />
 
-                <div className='video-box'>
+                {/* <div className='video-box'>
                   <div
                     onClick={(e) => {
                       e.preventDefault()
@@ -35,7 +35,7 @@ export default function About() {
                   >
                     <i className='fa-solid fa-play'></i>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -85,12 +85,12 @@ export default function About() {
         </div>
 
         {/* If you want to change the video need to update below videoID */}
-        <ModalVideo
+        {/* <ModalVideo
           channel='youtube'
           isOpen={isOpen}
           videoId='_ysd-zHamjk'
           onClose={() => setIsOpen(false)}
-        />
+        /> */}
       </section>
     </>
   )

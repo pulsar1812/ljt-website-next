@@ -9,7 +9,7 @@ export default function Contact() {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle='Contact Us' BGImage='bg-five' />
+      <PageBanner pageTitle='Contact Us' BGImage='bg-three' />
 
       <ContactInfo />
 

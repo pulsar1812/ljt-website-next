@@ -5489,7 +5489,7 @@ Page Title CSS
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.3;
+    opacity: 0.4;
   }
 
   .container {
@@ -5497,19 +5497,22 @@ Page Title CSS
   }
 
   &.bg-one {
-    background: transparent url(/images/page-banner1.jpg) right top no-repeat;
-    background-size: cover;
+    background: transparent url(/images/page-banner-new-1.jpg) right top
+      no-repeat;
     background-position: center center;
+    background-size: cover;
   }
 
   &.bg-two {
-    background: transparent url(/images/page-banner2.jpg) right top no-repeat;
+    background: transparent url(/images/page-banner-new-2.jpg) right top
+      no-repeat;
     background-position: center center;
     background-size: cover;
   }
 
   &.bg-three {
-    background: transparent url(/images/page-banner3.jpg) right top no-repeat;
+    background: transparent url(/images/page-banner-new-3.jpg) right top
+      no-repeat;
     background-position: center center;
     background-size: cover;
   }
