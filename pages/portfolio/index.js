@@ -11,7 +11,7 @@ export default function Portfolio() {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle='Featured Projects' BGImage='bg-three' />
+      <PageBanner pageTitle='Featured Projects' BGImage='bg-two' />
 
       <div className='case-studies-area ptb-100 bg-fcfbfb'>
         <div className='container'>

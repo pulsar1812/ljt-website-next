@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className='container'>
             <Link href='/'>
               <a className='navbar-brand'>
-                <img src='/images/logo-ljt-150x150.png' alt='logo' />
+                <img src='/images/logo-ljt-100x100.png' alt='logo' />
               </a>
             </Link>
 

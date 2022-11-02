@@ -15,7 +15,7 @@ export default function Footer() {
                 <div className='logo'>
                   <Link href='/'>
                     <a>
-                      <img src='/images/logo-ljt-150x150.png' alt='Logo' />
+                      <img src='/images/logo-ljt-100x100.png' alt='Logo' />
                     </a>
                   </Link>
                 </div>

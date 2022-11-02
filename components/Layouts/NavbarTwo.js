@@ -35,12 +35,12 @@ export default function NavbarTwo() {
             <Link href='/'>
               <a className='navbar-brand'>
                 <img
-                  src='/images/logo-ljt-150x150.png'
+                  src='/images/logo-ljt-100x100.png'
                   className='black-logo'
                   alt='logo'
                 />
                 <img
-                  src='/images/logo-ljt-150x150.png'
+                  src='/images/logo-ljt-100x100.png'
                   className='white-logo'
                   alt='logo'
                 />
